@@ -287,7 +287,7 @@ class _AuthorProfileScreenState extends State<AuthorProfileScreen> {
 Widget _buildPostItem(BuildContext context, int index) {
   // URL
   const List<String> postUrls = [
-    'https://github.com/quangluan99',
+    'https://github.com/quangluan99/E-Commerce-App',
     'https://github.com/quangluan99/Hotel-Booking-App',
     'https://github.com/quangluan99/BookApp',
   ];
