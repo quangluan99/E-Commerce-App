@@ -293,9 +293,9 @@ Widget _buildPostItem(BuildContext context, int index) {
   ];
 
   const List<String> date = [
-    'March , 2025',
-    'March , 2026',
-    'March , 2027',
+    'May, 2025',
+    'February , 2025',
+    'December , 2024',
   ];
 
   const List<String> title = [
