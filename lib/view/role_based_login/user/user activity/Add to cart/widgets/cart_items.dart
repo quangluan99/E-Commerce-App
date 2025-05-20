@@ -110,8 +110,9 @@ class CartItems extends ConsumerWidget {
                         children: [
                           InkWell(
                             onTap: () {
-                              cp.addCart(cart.productId, cart.productData,
-                                  cart.selectedColor, cart.selectedSize);
+                               // cp.addCart(cart.productId, cart.productData,
+                              //     cart.selectedColor, cart.selectedSize);
+                              cp.addQuantity(cart.productId);
                             },
                             child: Container(
                               width: 24.0,
